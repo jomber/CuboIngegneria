@@ -1,0 +1,652 @@
+﻿html {
+    height: 100%;
+    margin: 0;
+    /*background: url(../images/background.png) repeat;*/
+    /*background-color: black;*/
+    
+    background-image: url(../images/background.png); 
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+body {
+    margin: 0;
+    width: 63.125em; /*80%*/
+    min-width: 63.125em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#wrapperDefault {
+    width: 40em;
+    height: 100%;
+    position: relative;   
+    left: 50%;
+    margin-left: -20em;
+    background-image: url(../images/cuboSfondoTrasp.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 36em;
+}
+
+#wrapperLogoDefault {
+    width: 17em;
+    height: 6em;
+    background: #29292B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5em;
+    margin-left: -10em;
+    border: 2px solid #424040; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#contentWrapper p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+    /*color: #6a6363;*/
+    color: whitesmoke;
+    text-align:justify;
+    text-justify:inter-word;
+    margin-bottom: -0.75em;
+}
+
+#contentWrapper .homeWrapper, .personeWrapper, .progettiWrapper, .settoriWrapper, .contattiWrapper {
+    margin-left: 1.25em;
+    margin-right: 1.875em;
+    min-height: 38em;
+    min-width: 37.5em;
+    background-image: url(../images/cuboSfondoTrasp.png); 
+    background-repeat: no-repeat;
+}
+
+.homeWrapper {
+    background-position: left 4em;
+    background-size: 25em;
+    background-position-x: 3em;
+}
+
+.personeWrapper {
+    background-position: right 9em;
+    background-size: 26em;
+    background-position-x: 23em;
+}
+
+.settoriWrapper, .contattiWrapper, .progettiWrapper {
+    background-position: right 6em;
+    background-size: 26em;
+    background-position-x: 23em;
+}
+
+.progettiWrapper {
+    overflow: auto;
+}
+/*#contentWrapper .contattiWrapper {
+    margin-left:60px;
+    margin-right:50px;
+    min-height: 350px;
+}*/
+
+#studioImg {
+    margin-right: auto;
+    width: 21.063em;
+    /*height: 22.75em;*/
+    margin-left: 2.5em;
+    margin-right: 0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    float: right;
+}
+
+#cuboMap {
+    margin-right: auto;
+    height: 18.750em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    float: left;
+}
+
+
+.fascia {
+    margin-right: auto;
+    width: 100%;
+    height: 1.5px;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+#fasciaNicola, #fasciaSimone, #fasciaSartori {
+    margin-right: auto;
+    width: 60%;
+    height: 1.5px;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: -1em;
+}
+
+#contentWrapper h1, #divCreate h1 {
+    font-size: 25px;
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+    /*color: #a60606;*/
+    /*color: #850104;*/
+    color: #d01212;
+    /*color: #930206;*/ 
+}
+
+#contentWrapper h2 {
+    font-size: 30px;
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+    color: #930206;
+}
+
+#contentWrapper {
+    /*margin-left: 2.5%;
+    width: 95%;*/
+    /*height: 100%;*/
+    /*background: black;*/
+}
+
+#mainForm {
+    height: 100%;
+    min-width: 46.875em;
+}
+
+#divLeft {   
+   width: 2%;
+   height: 100%;
+   position: fixed;
+   left: 10%;
+   /*background: url(../images/fadeLeft.png) repeat-y;
+   background-size: 100% 1px;*/
+}
+
+#divRight {   
+   width: 2%;
+   height: 100%;
+   position: fixed;
+   right: 10%;
+   /*background: url(../images/fadeRight.png) repeat-y;
+   background-size: 100% 1px;*/
+}
+
+#mainMasterLogo {
+    margin-right: auto;
+    width: 20%;
+    margin-left: 1.250em;
+    margin-right: 6em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+#logoDefault {
+    margin-right: auto;
+    width: 15.625em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+    position: relative;   
+    left: 50%;
+    margin-left: -7.813em;
+
+}
+
+/*ul#menu {
+    width: 20%;
+    height: 2em;
+    margin: 0;
+    padding: 5em;
+    list-style: none;
+    text-align: center;
+    display: inline;
+}*/
+
+#userPanel {
+   height: 2em;
+}
+
+#headerWrapper {
+   min-width: 55em;
+   width: 56.5em;
+   /*height: 6em;*/
+   /*background: black;*/
+
+   /*background: #FFAB41;*/
+	/*background: -moz-linear-gradient(top, #FFD9B0, #FFAB41);*/
+	/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B2B2C9), to(#00004C));*/
+
+   position: relative;   
+   left: 50%;
+   margin-left: -28.125em;
+   /*border:2px solid #424040;*/ 
+   /*border-radius: 15px;*/
+}
+
+
+/*menu*/
+#menuWrapper {
+    padding-top: 2em;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu li {
+	padding: 0;
+	margin-left: 0.5em;
+    margin-right: 0.5em;
+	height: 34px;
+    width: 80px;
+	/*margin-right: 1em;*/
+	list-style: none;
+	background-repeat: no-repeat;
+}
+.menu li a, .menu li a:visited {
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 39px;
+	background-repeat: no-repeat;
+}
+
+#home {background-image: url(../images/homeButton.png);}
+#home a:hover, #home.active{background-image: url(../images/homeButtonSelected.png);}
+#persone {background-image: url(../images/personeButton.png);}
+#persone a:hover, #persone.active {background-image: url(../images/personeButtonSelected.png);}
+#progetti {background-image: url(../images/progettiButton.png);}
+#progetti a:hover, #progetti.active {background-image: url(../images/progettiButtonSelected.png);}
+#settori {background-image: url(../images/settoriButton.png);}
+#settori a:hover, #settori.active {background-image: url(../images/settoriButtonSelected.png);}
+#contatti {background-image: url(../images/contattiButton.png);}
+#contatti a:hover, #contatti.active {background-image: url(../images/contattiButtonSelected.png);}
+
+ul.menu li {
+    float: left;
+}
+/*end menu*/
+
+
+#mainContent {
+    background: #29292B;
+    /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8E8EA1), to(#393940));*/
+    height: auto;
+    width: 56.250em;
+    padding-top: 0.5em;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+    position: relative;   
+    left: 50%;
+    margin-left: -28.125em;
+    border:2px solid #424040; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    clear: both;
+}
+
+#footerWrapper {
+    /*background-color: black;*/
+    background: #29292B;
+    width: 56.250em;
+    height: 6.250em;
+    display: inline-block;
+    position: relative;   
+    left: 50%;
+    margin-left: -28.125em;
+    border:2px solid #424040; 
+    border-radius: 15px;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 10px black;
+}
+
+#footerWrapper p{
+    padding-top: 1.250em;
+    padding-left: 1.250em;
+    margin-top: 0px;
+}
+
+p#nicola, p#simone, p#sartori {
+    font-size:15px;
+    margin-bottom: 20px;
+    color: #d01010;
+}
+
+p#nicolaMail, p#simoneMail, p#sartoriMail {
+    font-size:13px;
+    padding-bottom: 5em;
+}
+
+p#DescriptionNicola, #DescriptionSimone, #DescriptionSartori {
+    width: 60%;
+}
+
+#nicolaImg, #simoneImg, #sartoriImg {
+    margin-right: auto;
+    width: 150px;
+    margin-left: 1.5em;
+    margin-right: 18%;
+    margin-top: 3.3em;
+    margin-bottom: 0.5em;
+    float: right;
+}
+
+a:link {
+    font-size: 16px;
+    color: #930206;
+}
+
+a:visited {
+    font-size: 16px;
+}
+
+
+/*Progetti*/
+.progettiWrapper ul li, #divCreate ul li {
+    float: left;
+    position:relative;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.progettiWrapper ul , #divCreate ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.progettiWrapper ul li .progettoNome, #progettiDelete ul li .progettoNome, #progettiUpload ul li .progettoNome, #progettiUploadRemove ul li .progettoNome, #divCreate ul li .progettoNome {
+    width: 190px;
+    height: 2.5em;
+    background-color: #811919;
+    font-size: 16px;
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 3px 15px 3px 15px;
+}
+
+.progettiWrapper ul li .imgProgetto, #divCreate ul li .imgProgetto{
+    background-color: #000;
+    width: 220px;
+    height: 135px;
+    position: relative;
+}
+
+.progettiWrapper .imgValues {
+    width: 220px;
+    height: 135px;
+}
+
+.progettoTitoloLabel {
+    
+}
+/*End progetti*/
+
+/*Project Description*/
+#projectDescription {
+    background: #1A1A1A;
+    float: left;
+    width: 380px;
+    margin-left: 1em;
+}
+
+
+.progettiWrapper p#presentazioneProgetto, p#dettaglioProgetto {
+    margin-left: 0.85em;
+    color: #d01212;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-right: 0.5em;
+}
+
+p#dettaglioProgetto {
+   font-size: 18px;
+   margin-left: 1em;
+   margin-top: 2em;
+}
+
+.progettiWrapper p#committenteProgetto, p#importoProgetto, p#statoProgetto {
+    font-size: 14px;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+}
+
+.progettiWrapper p#descrizioneProgetto {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 15px;
+    line-height: 1.5em;
+    /*text-align:left;*/
+    /*text-justify:auto;*/
+}
+
+.fasciaDescrizioneProgetto {
+    margin-right: auto;
+    width: 92%;
+    height: 1.5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: -1em;
+}
+
+/*End Project Description*/
+
+/*Login*/
+#divLogin {
+    width: 20em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px solid #424040; 
+    border-radius: 15px;
+    background-color: #424040;
+}
+
+#tdLogin{
+	width: 21em;
+	height: 1.5em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	display: block;
+}
+
+#mainContentPlaceHolder_loginForm_UserName, #mainContentPlaceHolder_loginForm_Password{
+	width: 18em;
+	margin-bottom: 1em;
+}
+
+/*End login*/
+
+
+/*Gestione Progetti*/
+
+#indietro{
+	width: 6em;
+	height: 6em;
+	margin-left: 4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.gestioneProgettoImg{
+	width: 4em;
+	height: 4em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+/*End Gestione Progetti*/
+
+/*Contatti*/
+/*Google Map*/
+#googleMap {
+    height: 20.6em;
+    width: 25.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    float: left;
+}
+/*End Google Map*/
+
+#wrapperMap {
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+#infoContatti {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#formContatti {
+    /*border: 2px solid grey;*/  
+    background: rgba(42, 40, 40, .4);
+    width: 23em;
+    /*height: 28em;*/
+    /*float: left;*/
+    margin-left: 1.0em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+    float: left;
+}
+
+#formContatti p{
+    font-family: Arial Narrow,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+
+.inputContatti {
+    width: 11em;
+    display: block;
+    float: left;
+    margin-top: 0.8em;
+}
+
+.inputContattiLabel {
+    width: 7em;
+    display: block;
+    float: left;
+    margin-left: 2em;
+    color: white;
+    margin-top: 0.8em;
+    font-family: Arial Narrow,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+}
+
+#mailingPrivacy {
+    clear: both;
+}
+
+#mainContentPlaceHolder_mailingTesto {
+    margin-bottom: 2em;
+}
+
+#mainContentPlaceHolder_mailingTesto {
+    width: 16em;
+}
+
+#mainContentPlaceHolder_contact_privacy {
+    margin-left: 2em;
+    margin-right: 1em;
+    float: left;
+}
+
+#mainContentPlaceHolder_privacyLabel {
+    margin-right: 1em;
+    font-size: 14px;
+    display: block;
+    color: white;
+    font-family: Arial Narrow,Arial,Helvetica,sans-serif;
+    letter-spacing: 1px;
+}
+
+#informativaLabel {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+#mailingButton {
+    padding-top: 2em;
+}
+
+#mainContentPlaceHolder_mailingSubmit {
+    /*margin-left: 18em;*/
+}
+
+#mainContentPlaceHolder_validitaCampi {
+    margin-left: 4em;
+    display: none; 
+}
+
+#labelValid {
+    width: 15em;
+    height: 2em;
+    float: left;
+}
+
+/*End Contatti*/
+
+/*Upload*/
+#divUpload, #divCreazione{
+    width: 30em;
+    height: 25em;
+    position: relative;   
+    left: 50%;
+    margin-left: -20em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 36em;
+    margin-top: 8em;
+
+    background: #29292B;
+    
+    border: 2px solid #424040; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.fileUpload, #fileCreate {
+    margin-left: 2em;
+}
+
+.fileUpload {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.inputCreateProgetto {
+    width: 16em;
+    display: block;
+    float: left;
+    margin-top: 0.8em;
+}
+
+
+/*End Upload*/

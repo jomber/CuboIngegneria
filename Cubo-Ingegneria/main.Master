@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="Cubo_Ingegneria.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/main-master.css" type="text/css" />
+    <link rel="stylesheet" href="css/effects.css" type="text/css" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/cubo.js"></script>
+    <!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBzxWPbQMdurgoLUDUfbW7BvcujMwXM2KI&sensor=false"></script>-->
+     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <div id="divLeft"></div>
+        <div id="divRight"></div>
+        <div id="contentWrapper">
+            <div id="header"></div>
+            <div id="userPanel" runat="server">
+            </div>
+            <div id="headerWrapper" runat="server">
+                <a href="admin.aspx"><img alt="Cubo-Ingegneria logo" id="mainMasterLogo" src="images/logoCubo.png" /></a> 
+                <div id="menuWrapper">
+                    <ul class="menu">
+	                    <li id="home"><a href="home.aspx">Home</a></li>
+	                    <li id="persone"><a href="persone.aspx">Persone</a></li>
+	                    <li id="progetti"><a href="progetti.aspx">Progetti</a></li>
+	                    <li id="settori"><a href="settori.aspx">Settori</a></li>
+                        <li id="contatti"><a href="contatti.aspx">Contatti</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mainContent">
+                <asp:ContentPlaceHolder id="mainContentPlaceHolder" runat="server">        
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footerWrapper">
+                    <p>
+                    © Studio Cubo Ingegneria - Via Jacopo da Corte, 8 - 35028 Piove di Sacco (PD)<br/>
+                    T. +39.049 2612819 - e-mail - info@cuboingegneria.it<br/>
+                    </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
